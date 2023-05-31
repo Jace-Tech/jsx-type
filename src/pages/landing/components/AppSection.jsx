@@ -10,7 +10,7 @@ import appStore from "../../../assets/icons/apple.png"
 
 const AppSection = () => {
   return (
-    <Box component={"section"} sx={appSectionBg} minHeight={"90vh"} py={[5, 8, 10]} position={"relative"} display={"flex"} alignItems={["flex-start", "center"]}>
+    <Box component={"section"} sx={appSectionBg} minHeight={["55vh", "65vh", "90vh"]} py={[5, 8, 10]} position={"relative"} display={"flex"} alignItems={["flex-start", "center"]}>
       <Box className="animate__animated animate__fadeInUp" zIndex={1} top={-15} left={0} position={"absolute"} width={"110%"}>
         <img src={wave} className={"wave-img"} />
       </Box>

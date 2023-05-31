@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Hero from './components/Hero'
 import Service from './components/Service'
 import AppSection from './components/AppSection'
+import Footer from '../../components/Footer'
 
 const Landing = () => {
   return (
@@ -11,6 +12,7 @@ const Landing = () => {
       <Hero />
       <Service />
       <AppSection />
+      <Footer />
     </Box>
   )
 }
