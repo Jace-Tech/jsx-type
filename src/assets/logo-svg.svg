@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.21666in" height="3.48245in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3216.66 3482.45"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="636" font-variant="normal" style="fill-rule:nonzero" font-style="italic" font-weight="700">
+	<font-face 
+		font-family="Hemi Head Rg">
+		<font-face-src>
+			<font-face-name name="HemiHeadRg-BoldItalic"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="2" horiz-adv-x="648" d="M595.001 0l25.9987 126.999 -396.001 0 23.0014 106.001c8.00049,35.9993 15.9981,43.9998 42.9997,43.9998l256.001 0c75.9988,0 114.998,36.9993 129.999,110.001l35.9993 171.999c3.00018,17.001 5.00031,32.002 5.00031,44.9998 0,49.0001 -27.0017,73.0016 -95,73.0016l-308.001 0c-83.9993,0 -125.999,-37.9994 -142,-115.001l-19.9983 -93.9999 137 0 10.0006 49.0001c6.00037,30.0018 17.9982,38.9995 44.9998,38.9995l191 0c21.9984,0 30.999,-6.00037 30.999,-19.9983 0,-5.00031 -1.00006,-12.0007 -3.00018,-19.0012l-18.9982 -89.9997c-6.00037,-27.9988 -15.0009,-38.9995 -43.0026,-38.9995l-240.997 0c-94.0028,0 -131.002,-36.9993 -150,-127.999l-55.0005 -260.001 539.001 0z"/>
+   <glyph unicode="G" horiz-adv-x="644" d="M591.001 0l82.9992 393.001 -275.999 0 -23.0014 -109.001 133.999 0 -32.9991 -154.001 -216.999 0c-20.0012,0 -27.0017,4.00025 -27.0017,17.001 0,3.00018 1.00006,8.00049 2.00012,13.0008l73.0016 344.998c5.99744,30.0018 13.9979,37.0023 39.9995,37.0023l351.998 0 28.0017 135 -417.999 0c-86.0024,0 -123.002,-37.9994 -140.003,-118.001l-92.9999 -440.998c-4.00025,-17.001 -5.99744,-32.002 -5.99744,-45.0028 0,-49.0001 27.9988,-72.9986 96,-72.9986l425 0z"/>
+   <glyph unicode="e" horiz-adv-x="617" d="M549.999 0l24.0015 115.001 -341 0c-17.001,0 -22.9985,3.00018 -22.9985,14.998 0,4.00025 1.00006,9.00055 2.00012,15.0009l47 217.999c4.99738,22.0014 9.99769,28.0017 32.9991,28.0017l201.001 0c15.9981,0 20.9984,-4.00025 20.9984,-14.0009 0,-4.00025 0,-8.00049 -1.00006,-13.0008l-14.998 -67.9983 -204.001 0 -17.001 -83.9993 337 0 41.9997 198.998c3.00018,14.0009 4.00025,26.0016 4.00025,37.0023 0,38.9995 -19.9983,57.9977 -70.9985,57.9977l-342.001 0c-73.0016,0 -103,-30.999 -117.001,-99.0002l-64.9981 -307.998c-3.00018,-15.0009 -5.00031,-27.9988 -5.00031,-38.9995 0,-40.9996 22.9985,-60.0008 79.9991,-60.0008l409.999 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Hemi Head Rg";font-variant:normal;font-style:italic;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil4 {fill:none}
+    .fil7 {fill:#094D9E}
+    .fil0 {fill:#0F3A83}
+    .fil8 {fill:white}
+    .fil5 {fill:url(#id2)}
+    .fil6 {fill:url(#id3)}
+    .fil3 {fill:url(#id4)}
+    .fil1 {fill:url(#id5)}
+    .fil2 {fill:url(#id6)}
+    .fnt0 {font-style:italic;font-weight:bold;font-size:1346.37px;font-family:'Hemi Head Rg'}
+   ]]>
+  </style>
+     <clipPath id="id0">
+      <path d="M435.87 1027.7c-228.62,968.82 1140.41,2008.59 2229.98,893.78 -472.26,62.44 -732.49,1.61 -960.78,-291.83 -357.25,-459.22 -759.86,-982.95 -1269.2,-601.95z"/>
+     </clipPath>
+     <clipPath id="id1">
+      <path d="M2766.98 1360.43c304.41,-923.56 -1238.98,-1991.1 -2214.86,-897.34 472.26,-62.44 732.49,-1.61 960.78,291.83 357.26,459.22 744.74,986.51 1254.08,605.51z"/>
+     </clipPath>
+  <radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.246915 -1.28116 1.36877 -0.0962387 875 4258)" cx="2174.96" cy="1342.17" r="1014.28" fx="2174.96" fy="1342.17">
+   <stop offset="0" style="stop-opacity:1; stop-color:#8AD5F2"/>
+   <stop offset="0.25098" style="stop-opacity:1; stop-color:#3EB1E9"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0E4294"/>
+  </radialGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.939344 -1.6053 1.37138 -0.832145 2783 2263)" cx="1425.41" cy="-13.85" r="1228.73" fx="1425.41" fy="-13.85">
+   <stop offset="0" style="stop-opacity:1; stop-color:#8AD5F2"/>
+   <stop offset="0.470588" style="stop-opacity:1; stop-color:#3EB1E9"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0E4294"/>
+  </radialGradient>
+  <radialGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.939342 1.60529 -1.37137 0.832143 1862 -1279)" xlink:href="#id3" cx="934.7" cy="1316.5" r="1228.73" fx="934.7" fy="1316.5">
+  </radialGradient>
+  <radialGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.8288 1.4434 -1.44341 0.828792 2382 -2539)" cx="1927.73" cy="1421.29" r="607.5" fx="1927.73" fy="1421.29">
+   <stop offset="0" style="stop-opacity:1; stop-color:#0769BD"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#050C40"/>
+  </radialGradient>
+  <radialGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.246916 1.29399 -1.36877 0.0972025 2218 -403)" xlink:href="#id2" cx="1042.07" cy="1047.02" r="1014.86" fx="1042.07" fy="1047.02">
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1941934646032">
+   <g>
+    <path class="fil0" d="M2502.67 1941.29c100.7,-112.86 154.48,-219.66 192.67,-305.95 73.56,64.97 65.25,160.47 -29.61,286.25l-163.06 19.7z"/>
+    <path class="fil0" d="M715.18 443.39c-100.7,112.86 -160.26,216.36 -198.45,302.65 -73.56,-64.97 -59.47,-157.17 35.39,-282.95l163.06 -19.7z"/>
+    <circle class="fil1" cx="1598.33" cy="1209.53" r="1176.43"/>
+    <path class="fil2" d="M435.87 1027.7c-228.62,968.82 1140.41,2008.59 2229.98,893.78 -472.26,62.44 -732.49,1.61 -960.78,-291.83 -357.25,-459.22 -759.86,-982.95 -1269.2,-601.95z"/>
+    <g style="clip-path:url(#id0)">
+     <g>
+      <path id="1" class="fil3" d="M415.96 1348.57c-239.01,725.13 1156.31,1709.86 1922.52,851.11 -960.02,236.46 -1326.35,-1561.83 -1922.52,-851.11z"/>
+     </g>
+    </g>
+    <path class="fil4" d="M435.87 1027.7c-228.62,968.82 1140.41,2008.59 2229.98,893.78 -472.26,62.44 -732.49,1.61 -960.78,-291.83 -357.25,-459.22 -759.86,-982.95 -1269.2,-601.95z"/>
+    <path class="fil5" d="M2766.98 1360.43c304.41,-923.56 -1238.98,-1991.1 -2214.86,-897.34 472.26,-62.44 732.49,-1.61 960.78,291.83 357.26,459.22 744.74,986.51 1254.08,605.51z"/>
+    <g style="clip-path:url(#id1)">
+     <g>
+      <path id="1" class="fil6" d="M2802.01 1035.99c239.01,-725.13 -1156.31,-1709.85 -1922.52,-851.1 960.02,-236.46 1326.35,1561.83 1922.52,851.1z"/>
+     </g>
+    </g>
+    <path class="fil4" d="M2766.98 1360.43c304.41,-923.56 -1238.98,-1991.1 -2214.86,-897.34 472.26,-62.44 732.49,-1.61 960.78,291.83 357.26,459.22 744.74,986.51 1254.08,605.51z"/>
+    <circle class="fil7" cx="1616.45" cy="1212.73" r="361.24"/>
+   </g>
+   <g transform="matrix(1 0 -0.128712 1 -1482.62 1741.23)">
+    <text x="1608.33" y="1741.22"  class="fil8 fnt0">Gee2</text>
+   </g>
+  </g>
+ </g>
+</svg>

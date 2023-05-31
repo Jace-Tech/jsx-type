@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GeneralSans, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+
+
+/* HEADER STYLES */
+.header {
+  background-color: transparent;
+}
+
+.header.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, .9);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  animation: slideInDown .5s ease forwards;
+}
+
+.header-link {
+  text-decoration: none;
+  transition: color .5s ease;
+  color: #777;
+  animation: slideInUp .5s linear;
+}
+
+.header-link:hover {
+  color: #03045e;
+}
+
+.header-link.active {
+  color: #03045e;
+}
+
+
+/* HERO SECTION */
+.slider-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  max-height: 400px;
+  object-fit: contain;
+  margin: auto;
+  transition: all .5s ease-in-out;
+}
+
+.slide-box > * {
+  animation: slideInUp .8s ease-in-out;
+}
+
+.service-bg {
+  background-color: rgb(3, 4, 94);
+}
+
+.wave-img {
+  width: 100%;
+}
+
+.up-down {
+  animation: updown 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+.download-btn {
+  max-width: 130px;
+  object-fit: contain;
+}
+
+.play {
+  max-width: 150px;
+
+}
+
+@keyframes updown {
+  to{
+    transform: translateY(50px);
+  }
+}
