@@ -5,7 +5,7 @@ import Service from './components/Service'
 import AppSection from './components/AppSection'
 import Footer from '../../components/Footer'
 
-const Landing = () => {
+const Riders = () => {
   return (
     <Box>
       <Header />
@@ -17,4 +17,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default Riders

@@ -7,16 +7,21 @@ import useBoolean from '../hooks/useBoolean'
 import { IoClose } from "react-icons/io5"
 import Logo from './Logo'
 import NavLinkItem from './NavLinkItem'
+import { useNavigate } from 'react-router-dom'
+import PropTypes from "prop-types"
 
 
-const Header = () => {
+
+const Header = ({ showNav }) => {
   const { isOpen: isSticky, open: openSticky, close: closeSticky } = useBoolean()
   const { isOpen, open, close } = useBoolean()
   const { shadows } = useTheme()
+  const navigate = useNavigate()
+
 
   useEffect(() => {
     const handleHeaderScroll = () => {
-      if(window.scrollY > 200) {
+      if (window.scrollY > 200) {
         openSticky()
         return
       }
@@ -34,17 +39,19 @@ const Header = () => {
           <Logo />
 
           {/* LINKS */}
-          <Stack direction={"row"} gap={5} display={{ xs: "none", md: "flex" }} sx={{ overflowY: "hidden" }}>
-            { navLinks.map(item => <NavLinkItem key={item.name} {...item} />) }
-          </Stack>
+          {!showNav && (
+            <Stack direction={"row"} gap={5} display={{ xs: "none", md: "flex" }} sx={{ overflowY: "hidden" }}>
+              {navLinks.map(item => <NavLinkItem key={item.name} {...item} />)}
+            </Stack>
+          )}
 
           {/* LINK */}
           <Stack direction={"row"} gap={2} alignItems={"center"} display={{ xs: "none", md: "flex" }} height={30}>
-            <Button sx={{ textTransform: "capitalize" }} color={"primary"} variant='outlined'> Login </Button>
-            <Button sx={{ textTransform: "capitalize", color: "white" }} color={"primary"} variant='contained'> Register </Button>
+            <Button onClick={() => navigate("/login/rider")} sx={{ textTransform: "capitalize" }} color={"primary"} variant='outlined'> Login </Button>
+            <Button onClick={() => navigate("/register/rider")} sx={{ textTransform: "capitalize", color: "white" }} color={"primary"} variant='contained'> Register </Button>
           </Stack>
 
-          <IconButton onClick={open} sx={{ display: {xs: "flex", md: "none"}, width: 40, height: 40, borderRadius: 2, color: PRIMARY_COLOR }}>
+          <IconButton onClick={open} sx={{ display: { xs: "flex", md: "none" }, width: 40, height: 40, borderRadius: 2, color: PRIMARY_COLOR }}>
             <Stack alignItems={"flex-end"} gap={.7}>
               <Box component={"span"} height={2} borderRadius={2} bgcolor={PRIMARY_COLOR} width={28}></Box>
               <Box component={"span"} height={2} borderRadius={2} bgcolor={PRIMARY_COLOR} width={20}></Box>
@@ -58,7 +65,7 @@ const Header = () => {
         anchor={"right"}
         open={isOpen}
         onClose={close}
-        PaperProps={{sx: { width: "100%", maxWidth: 350 }}}
+        PaperProps={{ sx: { width: "100%", maxWidth: 350 } }}
       >
         <Stack alignItems={"flex-end"} px={3} pt={2}>
           <IconButton onClick={close}>
@@ -67,16 +74,26 @@ const Header = () => {
         </Stack>
         <Stack gap={3}>
           <List>
-            { navLinks.map(item => <NavLinkItem key={item.name} {...item} isMobile />) }
+            {navLinks.map(item => <NavLinkItem key={item.name} {...item} isMobile />)}
           </List>
           <Stack gap={2} px={3}>
             <Button sx={{ textTransform: "capitalize" }} size={"large"} color={"primary"} variant='outlined'> Login </Button>
-            <Button sx={{ textTransform: "capitalize", color: "white" }} size={"large"} color={"primary"} variant='contained'> Register </Button>
+            <Button
+              onClick={() => navigate("/register/rider")}
+              sx={{ textTransform: "capitalize", color: "white" }}
+              size={"large"}
+              color={"primary"}
+              variant='contained'
+            > Register </Button>
           </Stack>
         </Stack>
       </Drawer>
     </Box>
   )
+}
+
+Header.propTypes = {
+  showNav: PropTypes.bool
 }
 
 export default Header

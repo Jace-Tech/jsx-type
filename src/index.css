@@ -100,3 +100,20 @@ body, #root {
     transform: translateY(50px);
   }
 }
+
+
+/* INPUTS */
+
+.custom-input {
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: .9rem;
+}
+
+.custom-input:focus {
+  border-color: #3babe4;
+}

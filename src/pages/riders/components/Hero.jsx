@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Stack, Typography } from '@mui/material'
-import {useRef, useEffect, useState} from "react"
+import {useRef} from "react"
 import { PRIMARY_COLOR } from '../../../utils/colors'
 import CustomButton from '../../../components/CustomButton'
 import { AiOutlineArrowRight } from "react-icons/ai"
@@ -9,25 +9,28 @@ import { register } from 'swiper/element/bundle';
 import keke from "../../../assets/vehicle/keke.png"
 import car from "../../../assets/vehicle/car.png"
 import SlideBox from '../../../components/SlideBox'
+import { Autoplay } from 'swiper'
+
+// import "swiper/element/css/autoplay"
 
 register()
 
 const Hero = () => {
   const swiperElRef = useRef(null)
-  const [interacting, setInteracting] = useState(false)
+  // const [interacting, setInteracting] = useState(false)
 
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      !interacting && swiperElRef?.current?.swiper.slideNext();
-    }, 15000)
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     !interacting && swiperElRef?.current?.swiper.slideNext();
+  //   }, 15000)
 
-    return () => clearInterval(interval)
-  }, []);
+  //   return () => clearInterval(interval)
+  // }, []);
 
-  useEffect(() => {
-    console.log(interacting)
-  }, [interacting])
+  // useEffect(() => {
+  //   console.log(interacting)
+  // }, [interacting])
 
   return (
     <Box component={"section"} py={[6, 8, 12]} overflow={"hidden"} position={"relative"} minHeight={"85vh"}>
@@ -38,10 +41,13 @@ const Hero = () => {
           slides-per-view="1"
           navigation="true"
           speed="500" 
+          autoplay={{
+            delay: 100,
+            disableOnInteraction: true
+          }}
+          modules={[Autoplay]}
           loop="true"
           pagination="false"
-          onDragStart={() => setInteracting(true)}
-          onDragEnd={() => setInteracting(false)}
         >
           <swiper-slide className={"slide-item"}>
             <Grid container spacing={[5, 5, 2]}>

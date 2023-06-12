@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import { Landing } from "./pages"
+import { Drivers, Riders } from "./pages"
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Register from "./pages/riders/components/Register"
+import Login from "./pages/riders/components/Login"
 
 const App = () => {
   useEffect(() => {
@@ -13,7 +15,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Riders />} />
+        <Route path="/driver" element={<Drivers />} />
+        <Route path="/register/rider" element={<Register />} />
+        <Route path="/login/rider" element={<Login />} />
         <Route path={"*"} element={<Navigate replace to={"/"} />} />
       </Routes>
     </BrowserRouter>

@@ -1,4 +1,5 @@
-import Landing from "./landing/Landing";
+import Riders from "./riders/";
+import Drivers from "./drivers";
 
 
-export { Landing }
+export { Riders, Drivers }
