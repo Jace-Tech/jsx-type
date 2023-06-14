@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 
 import App from './App.jsx'
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { PRIMARY_COLOR, SECONDARY_COLOR } from './utils/colors.ts';
+import { PRIMARY_COLOR, SECONDARY_COLOR } from './utils/colors';
 
 import './index.css'
 import "./assets/fonts/css/general-sans.css"

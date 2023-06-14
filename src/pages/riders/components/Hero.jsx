@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Stack, Typography } from '@mui/material'
-import {useRef} from "react"
+import {useEffect, useRef} from "react"
 import { PRIMARY_COLOR } from '../../../utils/colors'
 import CustomButton from '../../../components/CustomButton'
 import { AiOutlineArrowRight } from "react-icons/ai"
@@ -20,20 +20,16 @@ const Hero = () => {
   // const [interacting, setInteracting] = useState(false)
 
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     !interacting && swiperElRef?.current?.swiper.slideNext();
-  //   }, 15000)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      swiperElRef?.current?.swiper.slideNext();
+    }, 15000)
 
-  //   return () => clearInterval(interval)
-  // }, []);
-
-  // useEffect(() => {
-  //   console.log(interacting)
-  // }, [interacting])
+    return () => clearInterval(interval)
+  }, []);
 
   return (
-    <Box component={"section"} py={[6, 8, 12]} overflow={"hidden"} position={"relative"} minHeight={"85vh"}>
+    <Box component={"section"} py={[10, 12, 16]} overflow={"hidden"} position={"relative"}>
       <Container maxWidth={"lg"}>
         <swiper-container
           ref={swiperElRef}

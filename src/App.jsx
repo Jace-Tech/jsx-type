@@ -17,6 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Riders />} />
         <Route path="/driver" element={<Drivers />} />
+        {/* <Route path="/about" element={<Drivers />} /> */}
         <Route path="/register/rider" element={<Register />} />
         <Route path="/login/rider" element={<Login />} />
         <Route path={"*"} element={<Navigate replace to={"/"} />} />
