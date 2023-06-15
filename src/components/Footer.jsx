@@ -2,6 +2,7 @@ import { Box, Container, Grid, Stack, Typography } from "@mui/material"
 import Logo from "./Logo"
 import { navLinks } from "../contents/homeContent"
 import NavLinkItem from "./NavLinkItem"
+import { COMPANY_NAME } from "../contents"
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
           </Grid>
 
           <Grid item xs={12} sm={6} md={4}>
-           <Typography variant="body1" fontWeight={500} textAlign={{xs: "center", md: "right"}}> Copyright &copy; {(new Date()).getFullYear()}. Gee2 LTD</Typography>
+           <Typography variant="body1" fontWeight={500} textAlign={{xs: "center", md: "right"}}> Copyright &copy; {(new Date()).getFullYear()}. {COMPANY_NAME}</Typography>
           </Grid>
         </Grid>
       </Container>

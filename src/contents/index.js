@@ -1,0 +1,1 @@
+export const COMPANY_NAME = "G-TWO GLOBAL CONCEPTS LTD"

@@ -47,3 +47,4 @@ export const appSectionBg = {
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
 }
+
