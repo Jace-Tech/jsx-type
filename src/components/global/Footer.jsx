@@ -10,6 +10,7 @@ const Footer = () => {
   return (
     <PageContainer py={SECTION_VERTICAL_PADDING} bg={PRIMARY_COLOR}>
       <SimpleGrid columns={[1, 2, 4, 5]} spacing={6}>
+        
         {/* COMPANY LOGO */}
         <Stack gridColumn={"span 2"}>
           <div data-aos="fade-in" data-aos-delay={400}>

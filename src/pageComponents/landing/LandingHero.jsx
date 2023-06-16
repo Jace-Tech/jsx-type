@@ -18,7 +18,7 @@ const LandingHero = () => {
             <Box textAlign={["center", "center", "left"]}>
               {HERO_TITLE?.split("\n").map((line, index) => (
                 <SlideBox key={`hero-title-${index}`}>
-                  <TitleText fontWeight={"medium"} color={PRIMARY_COLOR} lineHeight={"1.3"}>{ line }</TitleText>
+                  <TitleText fontWeight={"bold"} color={PRIMARY_COLOR} lineHeight={"1.3"}>{ line }</TitleText>
                 </SlideBox>
               ))}
             </Box>
