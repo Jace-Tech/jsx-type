@@ -23,7 +23,7 @@ const Header = () => {
   }, [])
 
   return (
-    <PageContainer zIndex={MAX_Z_INDEX} py={5} top={0} bg={"white"} w={"100%"} left={0} shadow={isSticky? "md" : "none"} position={isSticky ? "sticky" : "static"}>
+    <PageContainer className={isSticky ? "animate__animated animate__slideInDown" : ""} zIndex={MAX_Z_INDEX} py={5} top={0} bg={"white"} w={"100%"} left={0} shadow={isSticky? "md" : "none"} position={isSticky ? "sticky" : "static"}>
       <HStack alignItems={"center"} justifyContent={"space-between"}>
         <Link as={ReactLink} to={"/"}>
           <Image
