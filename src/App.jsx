@@ -12,7 +12,7 @@ const App = () => {
   
   // INITIALIZE AOS
   useEffect(() => {
-    AOS.init({ duration: 1500, anchorPlacement: "bottom-center" });
+    AOS.init({ duration: 1000, anchorPlacement: "bottom-center" });
     return () => AOS.refresh();
   }, [])
 
