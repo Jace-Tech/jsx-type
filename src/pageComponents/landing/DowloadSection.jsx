@@ -14,7 +14,7 @@ const DowloadSection = () => {
       <PageContainer py={12}>
         <div data-aos="fade-up">
           <HStack flexDir={['column', 'column', 'row']} spacing={8} alignItems={["flex-start", "flex-start", "center"]}>
-            <TitleText>Download our apps</TitleText>
+            <TitleText lineHeight={"1.3"}>Download our apps</TitleText>
             <HStack spacing={4}>
               <CustomButton
                 outlined={sectionName !== "rider"}

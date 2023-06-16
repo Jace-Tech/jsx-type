@@ -45,7 +45,7 @@ const Header = () => {
           <CustomButton>register</CustomButton>
         </HStack>
 
-        <IconButton hideFrom={"md"} display={"flex"} rounded={"sm"} color={PRIMARY_COLOR}>
+        <IconButton variant={"ghost"} hideFrom={"md"} display={"flex"} rounded={"sm"} color={PRIMARY_COLOR}>
           <VStack alignItems={"flex-end"} spacing={1}>
             <Box as={"span"} h={"2px"} rounded={"sm"} bg={PRIMARY_COLOR} w={"28px"} />
             <Box as={"span"} h={"2px"} rounded={"sm"} bg={PRIMARY_COLOR} w={"20px"} />

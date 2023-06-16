@@ -11,7 +11,7 @@ const DriveSection = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={8}>
         <Box>
           <div data-aos="fade-right" data-aos-delay={300}>
-            <Image w={"100%"} maxW={500} src={SECTION_2_IMAGE} roundedTopLeft={"60"} roundedBottomRight={"60"} />
+            <Image w={"100%"} mx={["auto", "auto", "unset"]} maxW={450} src={SECTION_2_IMAGE} roundedTopLeft={"60"} roundedBottomRight={"60"} />
           </div>
         </Box>
 
