@@ -19,10 +19,10 @@ export const ANDROID_DOWNLOAD_BTN = androidDownloadBtn
 
 export const HERO_TITLE = "Elevate your Ride,\n elevate your life"
 export const HERO_IMAGE = heroImage
-export const HERO_TEXT = "Experience the Future of Urban Mobility with G-two ride, your Affordable, Safe, and Sustainable Choice."
+export const HERO_TEXT = "Experience the Future of Urban Mobility with Gee2Rides, your Affordable, Safe, and Sustainable Choice."
 
 export const SECTION_1_TITLE = "Why Choose Us"
-export const SECTION_1_TEXT = "GEE2 ride is changing the way we use our every day app, from leaving your home, and sending items to loved ones, to making payment and providing financial solution."
+export const SECTION_1_TEXT = "GEE2 is changing the way we use our every day app, from leaving your home, and sending items to loved ones, to making payment and providing financial solution."
 
 export const CARD_CONTENTS = [
   {
@@ -47,7 +47,7 @@ export const SECTION_2_TITLE = "Drive and earn extra money"
 export const SECTION_2_CONTENTS = [
   {
     title: "Drive more, earn more",
-    text: "Our 100+ thousand  riders will send you plenty of ride requests. When demand is high, you can earn even more."
+    text: "Our 100+ thousand  riders will send you plenty of ride requests. When demand is high, you can earn even more. More so, as a driver you are in control, our company gives you more privileges"
   },
   {
     title: "Own your schedule",
