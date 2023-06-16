@@ -9,7 +9,7 @@ import FaqItem from "../../components/local/FaqItem"
 const FaqSection = () => {
 
   return (
-    <Box py={SECTION_VERTICAL_PADDING}>
+    <Box py={SECTION_VERTICAL_PADDING} pb={0}>
       <PageContainer py={12}>
         <div data-aos="fade-up">
           <TitleText>Frequently asked questions (FAQ)</TitleText>
