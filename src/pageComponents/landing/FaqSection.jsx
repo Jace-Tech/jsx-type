@@ -16,7 +16,7 @@ const FaqSection = () => {
         </div>
       </PageContainer>
       <PageContainer py={12} bg={BG_BLUE_COLOR}>
-        <Accordion allowMultiple>
+        <Accordion>
           {FAQs.map((item, num) => (
             <FaqItem num={num} key={`faq-item-${num}`} {...item} />
           ))}
