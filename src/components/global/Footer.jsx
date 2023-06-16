@@ -36,7 +36,7 @@ const Footer = () => {
           <Stack spacing={6}>
 
             {COMPANY_LINKS.map((link, delay) => (
-              <div data-aos="fade-left" data-aos-delay={delay * 100} key={link.name}>
+              <div data-aos="fade-in" data-aos-delay={delay * 100} key={link.name}>
                 <Link as={ReactLink} color={"gray.400"} to={link.link}>{link.name}</Link>
               </div>
             ))}
@@ -51,7 +51,7 @@ const Footer = () => {
           <Stack spacing={6}>
 
             {PRODUCT_LINKS.map((link, delay) => (
-              <div data-aos="fade-left" data-aos-delay={delay * 100} key={link.name}>
+              <div data-aos="fade-in" data-aos-delay={delay * 100} key={link.name}>
                 <Link as={ReactLink} color={"gray.400"} to={link.link}>{link.name}</Link>
               </div>
             ))}
