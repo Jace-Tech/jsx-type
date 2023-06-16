@@ -10,5 +10,5 @@ body {
 
 
 .slide-box > * {
-  animation: slideInUp 1s ease-in-out;
+  animation: slideInUp .6s ease-in-out;
 }
