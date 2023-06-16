@@ -22,7 +22,7 @@ const App = () => {
   }, [pathname])
 
   return (
-    <Box minH={"full"} w={"full"}>
+    <Box minH={"full"} w={"full"} overflowX={"hidden"}>
         <Routes>
           { routes.map((route) => <Route {...route} key={route.name} />) }
         </Routes>
