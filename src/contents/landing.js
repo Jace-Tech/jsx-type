@@ -54,7 +54,7 @@ export const SECTION_2_CONTENTS = [
     text: "Drive for as long and as often as you like. Weekdays; weekends; evenings — fit driving around your lifestyle"
   },
   {
-    title: "247 Support & Resources",
+    title: "24/7 Support & Resources",
     text: "We foster a thriving community for drivers like you, offering unwavering support and valuable resources."
   },
 ]
@@ -153,7 +153,7 @@ export const COMPANY_LINKS = [
 
 export const PRODUCT_LINKS = [
   {
-    name: "Rides",
+    name: "Ride",
     link: ""
   },
   {

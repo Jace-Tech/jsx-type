@@ -10,7 +10,7 @@ const DowloadSection = () => {
   const [sectionName, setSectionName] = useState("rider")
 
   return (
-    <Box py={SECTION_VERTICAL_PADDING}>
+    <Box py={SECTION_VERTICAL_PADDING} pb={0}>
       <PageContainer py={12}>
         <div data-aos="fade-up">
           <HStack flexDir={['column', 'column', 'row']} spacing={8} alignItems={["flex-start", "flex-start", "center"]}>

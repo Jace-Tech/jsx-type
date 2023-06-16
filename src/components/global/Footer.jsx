@@ -1,6 +1,6 @@
 import { SimpleGrid, Stack, Link, Image, HStack, IconButton, Icon, Text } from "@chakra-ui/react"
 import { PRIMARY_COLOR } from "../../utils/colors"
-import { COMPANY_NAME, SECTION_VERTICAL_PADDING } from "../../utils/constants"
+import { COMPANY_ADDRESS, COMPANY_NAME, SECTION_VERTICAL_PADDING } from "../../utils/constants"
 import PageContainer from "./PageContainer"
 import footerLogo from "../../assets/images/logo/logo-foot.png"
 import { Link as ReactLink } from "react-router-dom"
@@ -64,7 +64,7 @@ const Footer = () => {
           <Text color={"white"} fontWeight={"medium"} fontSize={"2xl"}>Enugu</Text>
 
           <div data-aos="fade-in" data-aos-delay={400}>
-            <Text color={"gray.400"}>151 Herbert Macaulay Way, Yaba,</Text>
+            <Text color={"gray.400"}>{COMPANY_ADDRESS}</Text>
             <Text color={"gray.400"}>Enugu, Nigeria</Text>
           </div>
         </Stack>
