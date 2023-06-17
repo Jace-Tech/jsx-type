@@ -8,7 +8,7 @@ import { ANDROID_DOWNLOAD_BTN, COMPANY_LINKS, IOS_DOWNLOAD_BTN, PRODUCT_LINKS, S
 
 const Footer = () => {
   return (
-    <PageContainer py={SECTION_VERTICAL_PADDING} bg={PRIMARY_COLOR}>
+    <PageContainer py={SECTION_VERTICAL_PADDING} bg={PRIMARY_COLOR} as={"footer"} id={"Footer"}>
       <SimpleGrid columns={[1, 2, 4, 5]} spacing={6}>
         
         {/* COMPANY LOGO */}

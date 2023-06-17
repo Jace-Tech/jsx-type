@@ -7,7 +7,7 @@ import DriveListItem from "../../components/local/DriveListItem"
 
 const DriveSection = () => {
   return (
-    <PageContainer py={SECTION_VERTICAL_PADDING}>
+    <PageContainer py={SECTION_VERTICAL_PADDING} as={"section"} id="Drive">
       <SimpleGrid columns={[1, 1, 2]} gap={8}>
         <Box>
           <div data-aos="fade-right" data-aos-delay={300}>

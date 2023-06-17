@@ -7,7 +7,7 @@ import ChooseCard from "../../components/local/ChooseCard"
 
 const WhySection = () => {
   return (
-    <PageContainer py={SECTION_VERTICAL_PADDING}>
+    <PageContainer py={SECTION_VERTICAL_PADDING} as={"section"} id="Why">
       <Stack spacing={8}>
         <div data-aos="fade-up">
           <UnderlinedText>{SECTION_1_TITLE}</UnderlinedText>

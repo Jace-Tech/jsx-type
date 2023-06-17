@@ -9,7 +9,7 @@ import Footer from "../components/global/Footer"
 
 const LandingPage = () => {
   return (
-    <Box>
+    <Box position={"relative"}>
       <Header />
       <LandingHero />
       <WhySection />

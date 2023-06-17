@@ -10,7 +10,7 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.createRoot(document.querySelector("#root"))
   .render(
     <BrowserRouter>
-      <ChakraProvider theme={theme}>
+      <ChakraProvider theme={theme} >
         <CSSReset />
         <App />
       </ChakraProvider>

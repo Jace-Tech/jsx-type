@@ -124,7 +124,8 @@ export const NAV_LINKS = [
   },
   {
     name: "FAQ",
-    link: ""
+    link: "Faq",
+    isInternal: true
   },
   {
     name: "Contact us",
@@ -176,12 +177,12 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "Facebook",
-    link: "",
+    link: "https://www.facebook.com/gtworides?mibextid=ZbWKwL",
     icon: IoLogoFacebook
   },
   {
     name: "Instagram",
-    link: "",
+    link: "https://www.instagram.com/invites/contact/?i=1ibgurftyro63&utm_content=of49fbd",
     icon: IoLogoInstagram
   },
 ]

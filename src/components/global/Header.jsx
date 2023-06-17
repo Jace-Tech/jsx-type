@@ -1,6 +1,6 @@
 import { Box, HStack, IconButton, Image, Link, VStack } from "@chakra-ui/react"
 import PageContainer from "./PageContainer"
-import { Link as ReactLink } from "react-router-dom"
+import { Link as ReactLink, useNavigate } from "react-router-dom"
 
 import HeaderLogo from "../../assets/images/logo/logo.png"
 import { NAV_LINKS } from "../../contents/landing"
@@ -8,13 +8,16 @@ import CustomButton from "./CustomButton"
 import { PRIMARY_COLOR } from "../../utils/colors"
 import { useEffect, useState } from "react"
 import { MAX_Z_INDEX } from "../../utils/constants"
+import MenuLink from "../local/MenuLink"
+
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false)
+  const navigate = useNavigate()
 
   useEffect(() => {
     const checkHeight = () => {
-      if(window.scrollY > 200) setIsSticky(true)
+      if (window.scrollY > 200) setIsSticky(true)
       else setIsSticky(false)
     }
 
@@ -23,7 +26,7 @@ const Header = () => {
   }, [])
 
   return (
-    <PageContainer className={isSticky ? "animate__animated animate__slideInDown" : ""} zIndex={MAX_Z_INDEX} py={5} top={0} bg={"white"} w={"100%"} left={0} shadow={isSticky? "md" : "none"} position={isSticky ? "sticky" : "static"}>
+    <PageContainer className={isSticky ? "animate__animated animate__slideInDown" : ""} zIndex={MAX_Z_INDEX} py={5} top={0} bg={"white"} w={"100%"} left={0} shadow={isSticky ? "md" : "none"} position={isSticky ? "sticky" : "static"}>
       <HStack alignItems={"center"} justifyContent={"space-between"}>
         <Link as={ReactLink} to={"/"}>
           <Image
@@ -35,14 +38,14 @@ const Header = () => {
         </Link>
 
         <HStack hideBelow={"md"} spacing={8} flex={1} justifyContent={"center"} alignItems={"center"}>
-          {NAV_LINKS.map(({ name, link }) => (
-            <Link fontSize={"1rem"} whiteSpace={"nowrap"} as={ReactLink} to={link} key={name}> {name} </Link>
+          {NAV_LINKS.map((link) => (
+            <MenuLink key={link.name} {...link} />
           ))}
         </HStack>
 
         <HStack hideBelow={"md"} spacing={4}>
           <CustomButton outlined>Login</CustomButton>
-          <CustomButton>register</CustomButton>
+          <CustomButton onClick={() => navigate("/register")}>register</CustomButton>
         </HStack>
 
         <IconButton variant={"ghost"} hideFrom={"md"} display={"flex"} rounded={"sm"} color={PRIMARY_COLOR}>
@@ -56,6 +59,7 @@ const Header = () => {
     </PageContainer>
   )
 }
+
 
 
 export default Header
