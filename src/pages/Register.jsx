@@ -64,7 +64,6 @@ const Register = () => {
             </HStack>
           </Stack>
         </GridItem>
-
       </Grid>
     </AuthLayout>
   )

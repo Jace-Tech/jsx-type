@@ -167,12 +167,12 @@ export const PRODUCT_LINKS = [
 export const SOCIAL_LINKS = [
   {
     name: "Linkedin",
-    link: "",
+    link: "https://www.linkedin.com/in/g-two-global-concepts-ltd-854ab8258",
     icon: IoLogoLinkedin
   },
   {
     name: "Twitter",
-    link: "",
+    link: "https://twitter.com/GlobalGtwo75476?t=gIpPnQx-Lhrg1O4JIEjHdA&s=09",
     icon: IoLogoTwitter
   },
   {

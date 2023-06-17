@@ -21,9 +21,11 @@ const Footer = () => {
           <HStack spacing={4} mt={6}>
             {SOCIAL_LINKS.map((link, index) => (
                <div key={link.name} data-aos="zoom-in" data-aos-delay={index * 100}>
-                <IconButton fontSize={"2xl"} colorScheme={"whiteAlpha"} variant={"ghost"} size={"md"} href={link.link} target="_blank" rel="noopener noreferrer">
-                  <Icon color={"gray.300"} as={link.icon} />
-                </IconButton>
+                <Link href={link.link} target="_blank" rel="noopener noreferrer">
+                  <IconButton fontSize={"2xl"} colorScheme={"whiteAlpha"} variant={"ghost"} size={"md"}>
+                    <Icon color={"gray.300"} as={link.icon} />
+                  </IconButton>
+                </Link>
                </div>
             ))}
           </HStack>
