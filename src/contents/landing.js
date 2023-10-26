@@ -120,46 +120,46 @@ export const NAV_LINKS = [
   },
   {
     name: "About us",
-    link: ""
+    link: "/about"
   },
   {
     name: "FAQ",
-    link: "Faq",
-    isInternal: true
+    link: "/faq",
+    // isInternal: true
   },
   {
     name: "Contact us",
-    link: ""
+    link: "/contact"
   },
 ]
 
 export const COMPANY_LINKS = [
   {
     name: "About us",
-    link: ""
+    link: "/about"
   },
   {
     name: "Contact us",
-    link: ""
+    link: "/contact"
   },
   {
     name: "FAQ",
-    link: ""
+    link: "/faq"
   },
   {
     name: "Terms and Policy",
-    link: ""
+    link: "/"
   },
 ]
 
 export const PRODUCT_LINKS = [
   {
     name: "Ride",
-    link: ""
+    link: "/"
   },
   {
     name: "Drive",
-    link: ""
+    link: "/"
   },
 ]
 
