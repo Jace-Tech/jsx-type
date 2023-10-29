@@ -19,7 +19,7 @@ const Testimonial = () => {
         </div>
       </VStack>
 
-      <SimpleGrid columns={[1, 2, 3]} spacing={4} mt={10}>
+      <SimpleGrid columns={[1, 2, 3]} gap={4} mt={10}>
         {TESTIFIERS.map((value, index) => (
           <div data-aos="zoom-in" data-aos-delay={index * 100} key={`testifier-${index}`} >
             <Stack>
