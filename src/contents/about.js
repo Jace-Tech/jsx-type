@@ -1,6 +1,11 @@
 import clock from "../assets/images/clock.png"
-import sun from "../assets/images/sun-y.png"
-import whiteSun from "../assets/images/sun.png"
+
+import safety from "../assets/images/icons/safety.png"
+import reliability from "../assets/images/icons/reliability.png"
+import integrity from "../assets/images/icons/integrity.png"
+import cCare from "../assets/images/icons/c-care.png"
+import star from "../assets/images/icons/star.png"
+import info from "../assets/images/icons/info.png"
 
 import user1 from "../assets/users/user1.png"
 import user2 from "../assets/users/user2.png"
@@ -23,19 +28,34 @@ export const MISSION_VISION = [
 
 export const CORE_VALUES = [
   {
-    icon: sun,
-    title: "Good Performance",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly. Experience lightning-fast and budget-friendly rides.",
+    icon: safety,
+    title: "Safety",
+    text: "Ensuring the safety of our customers, employees, and the public is our top priority."
   },
   {
-    icon: whiteSun,
-    title: "Good Performance",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly. Experience lightning-fast and budget-friendly rides.",
+    icon: reliability,
+    title: "Reliability",
+    text: "Providing consistent and dependable transport services to meet the needs and expectations of our customers whilst providing convenience."
   },
   {
-    icon: sun,
-    title: "Good Performance",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly. Experience lightning-fast and budget-friendly rides.",
+    icon: integrity,
+    title: "Integrity",
+    text: "Operating with honesty, transparency, and ethical conduct in all aspects of our business dealings."
+  },
+  {
+    icon: cCare,
+    title: "Customer focus",
+    text: "Placing customer satisfaction at the center of our operations, striving to exceed their expectations."
+  },
+  {
+    icon: star,
+    title: "Innovation",
+    text: "Embracing new technologies, ideas, and processes to continuously improve and stay ahead in the industry."
+  },
+  {
+    icon: info,
+    title: "Learn more about our values",
+    text: ""
   },
 ]
 

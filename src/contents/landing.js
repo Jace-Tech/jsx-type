@@ -28,7 +28,7 @@ export const CARD_CONTENTS = [
   {
     icon: timeIcon,
     title: "Fast and Safe",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service"
+    text: "Experience lightning-fast and budget-friendly rides. Reach your destination with ease and precision with our car riding service"
   },
   {
     icon: safeIcon,
@@ -93,30 +93,30 @@ export const DOWNLOAD_SECTION = {
 export const FAQs = [
   {
     question: "How much does it cost to book a ride?",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veniam quis minus nulla eum, explicabo itaque magnam vero odit deserunt quasi? Commodi sed minima iure qui dolor ipsum fuga temporibus."
+    answer: "Gee2 puts in to consideration the trends in the office economy, as well makes sure the rider is able to foot the bill leaving all concerned happy at the end of the trip."
   },
   {
-    question: "How do i become a driver",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veniam quis minus nulla eum, explicabo itaque magnam vero odit deserunt quasi? Commodi sed minima iure qui dolor ipsum fuga temporibus."
+    question: "How do i become a driver?",
+    answer: "Simply get on to google play or Apple stores and search for GEE2RiDES, download the app and sign up, be sure to do your KYC and get verified by making sure your car is at least a  Millenium model. Then you are good to go. This process takes not less than 5mins."
   },
   {
-    question: "Does Gee2ride cover deliveries",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veniam quis minus nulla eum, explicabo itaque magnam vero odit deserunt quasi? Commodi sed minima iure qui dolor ipsum fuga temporibus."
+    question: "Does Gee2RiDES cover deliveries?",
+    answer: "Gee2 Logistics is yet to kick off, keep your eyes on the app for updates on this business need."
   },
   {
-    question: "How much does it cost to book a ride?",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veniam quis minus nulla eum, explicabo itaque magnam vero odit deserunt quasi? Commodi sed minima iure qui dolor ipsum fuga temporibus."
+    question: " How do I know that my referrals have have completed 3 rides?",
+    answer: "Gee2 Takes very seriously all referral link and makes sure that the rewards come as at when due. Also the algorithm is fully automated and will automatically credit your wallet."
   },
 ]
 
 export const NAV_LINKS = [
   {
     name: "Drive",
-    link: ""
+    link: "/"
   },
   {
     name: "Ride",
-    link: ""
+    link: "/"
   },
   {
     name: "About us",
