@@ -1,11 +1,11 @@
-import clock from "../assets/images/clock.png"
-
 import safety from "../assets/images/icons/safety.png"
 import reliability from "../assets/images/icons/reliability.png"
 import integrity from "../assets/images/icons/integrity.png"
 import cCare from "../assets/images/icons/c-care.png"
 import star from "../assets/images/icons/star.png"
 import info from "../assets/images/icons/info.png"
+import head from "../assets/images/icons/head.png"
+import chart from "../assets/images/icons/chart.png"
 
 import user1 from "../assets/users/user1.png"
 import user2 from "../assets/users/user2.png"
@@ -13,12 +13,12 @@ import user3 from "../assets/users/user3.png"
 
 export const MISSION_VISION = [
   {
-    image: clock,
+    image: head,
     title: "Our Mission",
     text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly."
   },
   {
-    image: clock,
+    image: chart,
     title: "Our Vision",
     text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly."
   },

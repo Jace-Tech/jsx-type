@@ -19,7 +19,7 @@ export const ANDROID_DOWNLOAD_BTN = androidDownloadBtn
 
 export const HERO_TITLE = "Elevate your Ride,\n elevate your life"
 export const HERO_IMAGE = heroImage
-export const HERO_TEXT = "Experience the Future of Urban Mobility with Gee2Rides, your Affordable, Safe, and Sustainable Choice."
+export const HERO_TEXT = "Experience the Future of Urban Mobility with GEE2RiDES, your Affordable, Safe, and Sustainable Choice."
 
 export const SECTION_1_TITLE = "Why Choose Us"
 export const SECTION_1_TEXT = "GEE2 is changing the way we use our every day app, from leaving your home, and sending items to loved ones, to making payment and providing financial solution."
@@ -63,7 +63,7 @@ export const DOWNLOAD_SECTION = {
   rider: {
     title: "Book a Ride and ride in minutes",
     image: riderImage,
-    text: "Experience the Future of Urban Mobility with G-two ride, your Affordable, Safe, and Sustainable Choice.Book a ride in seconds with Gee2ride and and ride to your destination in minutes.",
+    text: "Experience the Future of Urban Mobility with GEE2RiDES, your Affordable, Safe, and Sustainable Choice.Book a ride in seconds with Gee2ride and and ride to your destination in minutes.",
     links: {
       ios: "",
       android: "",
@@ -93,14 +93,14 @@ export const DOWNLOAD_SECTION = {
 export const FAQs = [
   {
     question: "How much does it cost to book a ride?",
-    answer: "Gee2 puts in to consideration the trends in the office economy, as well makes sure the rider is able to foot the bill leaving all concerned happy at the end of the trip."
+    answer: "Gee2 puts in to consideration the trends in the economy, as well makes sure the rider is able to foot the bill leaving all concerned happy at the end of the trip."
   },
   {
     question: "How do i become a driver?",
     answer: "Simply get on to google play or Apple stores and search for GEE2RiDES, download the app and sign up, be sure to do your KYC and get verified by making sure your car is at least a  Millenium model. Then you are good to go. This process takes not less than 5mins."
   },
   {
-    question: "Does Gee2RiDES cover deliveries?",
+    question: "Does GEE2RiDES cover deliveries?",
     answer: "Gee2 Logistics is yet to kick off, keep your eyes on the app for updates on this business need."
   },
   {
