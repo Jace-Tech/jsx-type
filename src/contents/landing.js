@@ -148,7 +148,7 @@ export const COMPANY_LINKS = [
   },
   {
     name: "Terms and Policy",
-    link: "/"
+    link: "/privacy-policy"
   },
 ]
 

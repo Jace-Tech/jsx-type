@@ -13,7 +13,7 @@ const Footer = () => {
         
         {/* COMPANY LOGO */}
         <Stack gridColumn={"span 2"}>
-          <div data-aos="fade-in" data-aos-delay={400}>
+          <div data-aos="fade-in">
             <Link as={ReactLink} to={"/"}>
               <Image src={footerLogo} maxW={150} alt={COMPANY_NAME + " logo"} />
             </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
 
         {/* COMPANY LINKS */}
         <Stack spacing={8}>
-          <div data-aos="fade-in" data-aos-delay={400}>
+          <div data-aos="fade-in">
             <Text color={"white"} fontWeight={"medium"} fontSize={"2xl"}>Company</Text>
           </div>
           <Stack spacing={6}>
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* PRODUCTS LINKS */}
         <Stack spacing={8}>
-          <div data-aos="fade-in" data-aos-delay={400}>
+          <div data-aos="fade-in">
             <Text color={"white"} fontWeight={"medium"} fontSize={"2xl"}>Products</Text>
           </div>
           <Stack spacing={6}>
@@ -65,7 +65,7 @@ const Footer = () => {
         <Stack spacing={8}>
           <Text color={"white"} fontWeight={"medium"} fontSize={"2xl"}>Enugu</Text>
 
-          <div data-aos="fade-in" data-aos-delay={400}>
+          <div data-aos="fade-in">
             <Text color={"gray.400"}>{COMPANY_ADDRESS}</Text>
             <Text color={"gray.400"}>Enugu, Nigeria</Text>
           </div>

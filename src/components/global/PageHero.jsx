@@ -4,9 +4,9 @@ import SlideBox from "./SlideBox"
 import PropType from "prop-types"
 
 
-const PageHero = ({ text, image }) => {
+const PageHero = ({ text, image, ...props }) => {
   return (
-    <Box minH={[400, 600]} position={"relative"} bg={`linear-gradient(0deg, #03045E -4.62%, rgba(3, 4, 94, 0.00) 86.37%), url('${image}')`} bgSize={"cover"}>
+    <Box minH={[400, 600]} position={"relative"} bg={`linear-gradient(0deg, #03045E -4.62%, rgba(3, 4, 94, 0.00) 86.37%), url('${image}')`} bgSize={"cover"} {...props}>
       <PageContainer h={"full"}>
         <SlideBox>
           <Heading pos={"absolute"} bottom={12} zIndex={5} size={"lg"} color="white">{text}</Heading>
@@ -18,7 +18,8 @@ const PageHero = ({ text, image }) => {
 
 PageHero.propTypes = {
   text: PropType.string,
-  image: PropType.string
+  image: PropType.string,
+  props: PropType.object,
 }
 
 export default PageHero

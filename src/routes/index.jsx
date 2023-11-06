@@ -3,6 +3,7 @@ import ContactUs from "../pages/ContactUs";
 import Faq from "../pages/Faq";
 import LandingPage from "../pages/Landing";
 import Login from "../pages/Login";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Register from "../pages/Register";
 
 export default [
@@ -11,5 +12,6 @@ export default [
   { path: '/login', element: <Login />, name: "Login"},
   { path: '/about', element: <About />, name: "About"},
   { path: '/contact', element: <ContactUs />, name: "Contact"},
+  { path: '/privacy-policy', element: <PrivacyPolicy />, name: "Privacy"},
   { path: '/faq', element: <Faq />, name: "Faq"},
 ]

@@ -15,12 +15,12 @@ export const MISSION_VISION = [
   {
     image: head,
     title: "Our Mission",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly."
+    text: "To provide safe, reliable, comfort convenience in every trip, while providing solutions that exceed customer expectations in every society where Gee2 is found."
   },
   {
     image: chart,
     title: "Our Vision",
-    text: "Experience lightning-fast and budget-friendly rides. Reach your destination swiftly and affordably with our car riding service, Experience lightning-fast and budget-friendly."
+    text: "To be the leading transport company in Africa, known for our commitment to safety, reliability, Convenience and customer satisfaction, while continuously innovating and embracing sustainable practices in our society."
   },
 ]
 
