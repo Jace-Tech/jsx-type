@@ -163,6 +163,13 @@ export const PRODUCT_LINKS = [
   },
 ]
 
+export const SOCIAL_LINKS_TEXT = {
+  x: "https://x.com/Gee2Tech42291?s=09",
+  linkedin: "https://www.linkedin.com/in/g-two-global-concepts-ltd-854ab8258",
+  facebook: "https://www.facebook.com/gtworides?mibextid=ZbWKwL",
+  instagram: "https://www.instagram.com/invites/contact/?i=1ibgurftyro63&utm_content=of49fbd",
+}
+
 
 export const SOCIAL_LINKS = [
   {
@@ -172,7 +179,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/GlobalGtwo75476?t=gIpPnQx-Lhrg1O4JIEjHdA&s=09",
+    link: "https://x.com/Gee2Tech42291?s=09",
     icon: IoLogoTwitter
   },
   {

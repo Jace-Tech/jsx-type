@@ -10,6 +10,7 @@ import { BG_BLUE_COLOR, GRAY_COLOR, PRIMARY_COLOR } from '../utils/colors'
 import phone from "../assets/images/phone.png"
 import mail from "../assets/images/mail.png"
 import sMedia from "../assets/images/s-media.png"
+import { SOCIAL_LINKS_TEXT } from '../contents/landing'
 
 
 
@@ -64,17 +65,17 @@ const ContactUs = () => {
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>Instagram:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={"https://"}>https://</Link>
+                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.instagram}>{SOCIAL_LINKS_TEXT.instagram}</Link>
               </Stack>
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>X:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={"https://"}>https://</Link>
+                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.x}>{SOCIAL_LINKS_TEXT.x}</Link>
               </Stack>
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>Linkedin:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={"https://"}>https://</Link>
+                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.linkedin}>{SOCIAL_LINKS_TEXT.linkedin}</Link>
               </Stack>
             </Stack>
           </div>
