@@ -13,6 +13,7 @@ import driverImage from "../assets/images/driver.png"
 
 import iosDownloadBtn from "../assets/images/app-white.png"
 import androidDownloadBtn from "../assets/images/play-white.png"
+import { ANDROID_DRIVER_LINK, ANDROID_RIDER_LINK } from "../utils/constants"
 
 export const IOS_DOWNLOAD_BTN = iosDownloadBtn
 export const ANDROID_DOWNLOAD_BTN = androidDownloadBtn
@@ -59,6 +60,7 @@ export const SECTION_2_CONTENTS = [
   },
 ]
 
+
 export const DOWNLOAD_SECTION = {
   rider: {
     title: "Book a Ride and ride in minutes",
@@ -66,7 +68,7 @@ export const DOWNLOAD_SECTION = {
     text: "Experience the Future of Urban Mobility with GEE2RiDES, your Affordable, Safe, and Sustainable Choice.Book a ride in seconds with Gee2ride and and ride to your destination in minutes.",
     links: {
       ios: "",
-      android: "",
+      android: ANDROID_RIDER_LINK,
     },
     icon: {
       ios: iosDownloadBtn,
@@ -79,7 +81,7 @@ export const DOWNLOAD_SECTION = {
     text: "Our 100+ million riders will send you plenty of ride requests. When demand is high, you can earn even more  100+ million riders will send you plenty of ride requests. When demand is high, you can earn even more.",
     links: {
       ios: "",
-      android: "",
+      android: ANDROID_DRIVER_LINK,
     },
     icon: {
       ios: iosDownloadBtn,

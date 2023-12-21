@@ -3,7 +3,7 @@ import Header from '../components/global/Header'
 import Footer from '../components/global/Footer'
 import PageHero from '../components/global/PageHero'
 import bgImage from "../assets/images/c-care.png"
-import { SECTION_VERTICAL_PADDING } from '../utils/constants'
+import { COMPANY_EMAIL, COMPANY_PHONE_1, COMPANY_PHONE_2, SECTION_VERTICAL_PADDING } from '../utils/constants'
 import PageContainer from '../components/global/PageContainer'
 import { BG_BLUE_COLOR, GRAY_COLOR, PRIMARY_COLOR } from '../utils/colors'
 
@@ -29,8 +29,8 @@ const ContactUs = () => {
               </Stack>
 
               <Stack spacing={1}>
-                <Text fontSize={"sm"} color={GRAY_COLOR}>Call us on <Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:0700 888 8328"}>0700 888 8328</Link> or  <br /><Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:01 8888328"}>01 8888328</Link></Text>
-                <Text fontSize={"sm"} color={GRAY_COLOR}><Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:0700 888 8329"}>0700 888 8329</Link> or <Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:01 8888329"}>01 8888329</Link></Text>
+                <Text fontSize={"sm"} color={GRAY_COLOR}>Call us on <Link  textDecor={["underline", "underline", "none"]} color={PRIMARY_COLOR} fontWeight={"500"} href={`tel:${COMPANY_PHONE_1}`}>{COMPANY_PHONE_1}</Link> or  <br /><Link color={PRIMARY_COLOR}  textDecor={["underline", "underline", "none"]} fontWeight={"500"} href={`tel:${COMPANY_PHONE_2}`}>{COMPANY_PHONE_2}</Link></Text>
+                {/* <Text fontSize={"sm"} color={GRAY_COLOR}><Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:0700 888 8329"}>0700 888 8329</Link> or <Link color={PRIMARY_COLOR} fontWeight={"500"} href={"tel:01 8888329"}>01 8888329</Link></Text> */}
                 <Text fontSize={"sm"} color={GRAY_COLOR}>Available 24/7</Text>
               </Stack>
 
@@ -50,7 +50,7 @@ const ContactUs = () => {
 
 
               <Stack>
-                <Text fontSize={"sm"} color={GRAY_COLOR}><Link color={PRIMARY_COLOR} fontWeight={"500"} href={"mailto:Gee2ride@gmail.com"}>Gee2ride@gmail.com</Link></Text>
+                <Text fontSize={"sm"} color={GRAY_COLOR}><Link textDecor={["underline", "underline", "none"]} color={PRIMARY_COLOR} fontWeight={"500"} href={`mailto:${COMPANY_EMAIL}`}>{COMPANY_EMAIL}</Link></Text>
               </Stack>
             </Stack>
           </div>
@@ -65,17 +65,17 @@ const ContactUs = () => {
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>Instagram:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.instagram}>{SOCIAL_LINKS_TEXT.instagram}</Link>
+                <Link textDecor={["underline", "underline", "none"]} fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.instagram}>{SOCIAL_LINKS_TEXT.instagram}</Link>
               </Stack>
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>X:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.x}>{SOCIAL_LINKS_TEXT.x}</Link>
+                <Link textDecor={["underline", "underline", "none"]} fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.x}>{SOCIAL_LINKS_TEXT.x}</Link>
               </Stack>
 
               <Stack spacing={0}>
                 <Text color={PRIMARY_COLOR} fontSize={"sm"} fontWeight={"600"}>Linkedin:</Text>
-                <Link fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.linkedin}>{SOCIAL_LINKS_TEXT.linkedin}</Link>
+                <Link textDecor={["underline", "underline", "none"]} fontSize={"sm"} color={GRAY_COLOR} href={SOCIAL_LINKS_TEXT.linkedin}>{SOCIAL_LINKS_TEXT.linkedin}</Link>
               </Stack>
             </Stack>
           </div>

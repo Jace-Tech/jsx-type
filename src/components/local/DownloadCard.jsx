@@ -23,8 +23,13 @@ const DownloadCard = ({ type }) => {
           </div>
 
           <HStack mt={10} spacing={4} justifyContent={["center", "center", "flex-start"]}>
-            <Link href={links.ios} target="_blank" rel="noopener noreferrer" as={Image} w={40} src={icon.ios} alt="Download on App Store" />
-            <Link href={links.android} target="_blank" rel="noopener noreferrer" as={Image} w={40} src={icon.android} alt="Download on Play Store" />
+            <Link href={links.ios} target="_blank" rel="noopener noreferrer">
+              <Image w={40} src={icon.ios} alt="Download on App Store" />
+            </Link>
+
+            <Link href={links.android} target="_blank" rel="noopener noreferrer" >
+              <Image w={40} src={icon.android} alt="Download on Play Store" />
+            </Link>
           </HStack>
         </Stack>
 

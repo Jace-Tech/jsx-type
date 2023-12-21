@@ -6,7 +6,7 @@ import { PRIMARY_COLOR } from "../../utils/colors";
 import appStore from "../../assets/images/apple-download.png"
 import playStore from "../../assets/images/play.png"
 import TitleText from "../../components/global/TitleText";
-import { SECTION_VERTICAL_PADDING } from "../../utils/constants";
+import { ANDROID_RIDER_LINK, SECTION_VERTICAL_PADDING } from "../../utils/constants";
 import SlideBox from "../../components/global/SlideBox";
 
 const LandingHero = () => {
@@ -26,8 +26,13 @@ const LandingHero = () => {
             <Text className={"animate__animated animate__fadeInUp"} textAlign={["center", "center", "left"]} fontWeight={500} mt={4} maxW={["full", "full", "md"]} fontSize={"lg"}>{HERO_TEXT}</Text>
 
             <HStack className={"animate__animated animate__fadeInUp"} mt={10} spacing={4} justifyContent={["center", "center", "flex-start"]}>
-              <Link as={Image} maxW={40} w={"100%"} src={appStore} alt="Download on ios" />
-              <Link as={Image} maxW={40} w={"100%"} src={playStore} alt="Download on ios" />
+              <Link >
+                <Image maxW={40} w={"100%"} src={appStore} alt="Download on ios" />
+              </Link>
+
+              <Link href={ANDROID_RIDER_LINK}>
+                <Image maxW={40} w={"100%"} src={playStore} alt="Download on android" />
+              </Link>
             </HStack>
           </Stack>
         </GridItem>
