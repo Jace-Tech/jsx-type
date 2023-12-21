@@ -3,7 +3,7 @@ import Header from '../components/global/Header'
 import Footer from '../components/global/Footer'
 import PageHero from '../components/global/PageHero'
 import bgImage from "../assets/images/c-care.png"
-import { COMPANY_EMAIL, COMPANY_PHONE_1, COMPANY_PHONE_2, SECTION_VERTICAL_PADDING } from '../utils/constants'
+import { COMPANY_EMAIL, COMPANY_PHONE_1, COMPANY_PHONE_2, COMPANY_WHATSAPP, SECTION_VERTICAL_PADDING } from '../utils/constants'
 import PageContainer from '../components/global/PageContainer'
 import { BG_BLUE_COLOR, GRAY_COLOR, PRIMARY_COLOR } from '../utils/colors'
 
@@ -35,7 +35,7 @@ const ContactUs = () => {
               </Stack>
 
               <Stack>
-                <Text fontSize={"sm"} color={GRAY_COLOR}>Chat with us on Whatsapp<Link color={PRIMARY_COLOR} fontWeight={"500"} href={"https://wa.me/+2349165998936"}>+2349165998936</Link></Text>
+                <Text fontSize={"sm"} color={GRAY_COLOR}>Chat with us on Whatsapp<Link color={PRIMARY_COLOR} fontWeight={"500"} href={`https://wa.me/${COMPANY_WHATSAPP}`}>{COMPANY_WHATSAPP}</Link></Text>
               </Stack>
             </Stack>
           </div>
