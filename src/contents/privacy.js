@@ -1,4 +1,4 @@
-export const privacyText = "GEE2 holds to a high esteem its mandate of protecting your privacy therefore this Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you use our taxi booking app as a user and when you use our driver app as a driver (collectively, the \"Services\"). By using SwiftBooking, you consent to the practices described in this Privacy Policy."
+export const privacyText = "GEE2 values the importance of safeguarding your privacy. This Privacy Policy outlines the procedures we follow in collecting, utilizing, disclosing, and securing your personal information when you engage with our taxi booking app as a user and when you use our driver app as a driver (referred to collectively as the 'Services'). By utilizing our services, you agree to the practices outlined in this Privacy Policy."
 
 
 export const informationCollection = [

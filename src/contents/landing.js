@@ -168,7 +168,7 @@ export const PRODUCT_LINKS = [
 export const SOCIAL_LINKS_TEXT = {
   x: "https://x.com/Gee2Tech42291?s=09",
   linkedin: "https://www.linkedin.com/in/g-two-global-concepts-ltd-854ab8258",
-  facebook: "https://www.facebook.com/gtworides?mibextid=ZbWKwL",
+  facebook: "https://www.facebook.com/gtworides?mibextid=2JQ9oc",
   instagram: "https://www.instagram.com/invites/contact/?i=1ibgurftyro63&utm_content=of49fbd",
 }
 
@@ -186,7 +186,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/gtworides?mibextid=ZbWKwL",
+    link: "https://www.facebook.com/gtworides?mibextid=2JQ9oc",
     icon: IoLogoFacebook
   },
   {
